@@ -11,7 +11,7 @@ This hands-on lab consists of the following steps:
     - [Create a CI build for every Pull Request](#create-a-ci-build-for-every-pull-request)
     - [Use the CI build as a branch protection](#use-the-ci-build-as-a-branch-protection)
     - [Enforce CODEOWNERS review](#enforce-codeowners-review)
-  - [Add Test Result Reports](#add-test-result-reports)
+    - [Setting up signed commits](#setting-up-signed-commits)
 
 ### Create a Branch Protection Rule
 We want to protect our branches against unwanted direct updates. This is a very common setup in the enterprise.
@@ -77,7 +77,10 @@ After setting up the file, commit it to the main branch (use a Pull Request!). N
 
 Save the branch protection rule and make a change to e.g. the startup.cs file and see if you can commit the changes to the main branch. Ask one of the other attendees to review the pull request you created and see if it then is allowed to approve and merge the pull request. Please use the teams chat to find a colleague who can approve your pull request. If you can't find anyone, ask the instructors. 
 
+### Setting up signed commits
+Take some time and go through the following blogpost to set up signed commits to be able to have verified committers to your repository.
 
+[Setting up signed commits](https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html)
 
 
 
