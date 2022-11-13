@@ -33,8 +33,8 @@ You can find the details for each of the hands-on labs in the sequence of the bo
 - Hands-on lab 3.3: [Staged deployments](/labs/3-HOL%20-%20AddingCompliancy/3-Staged_deployments.md)
 
 ### Module 4: Adding Security
-- Hands-on lab 4.1: [Setting up Code Scanning and Secret Scanning for your repository](/labs/4-HOL%20-%20AddingSecurity/1-Using-Secrets.md)
-- Hands-on lab 4.2: [Enabling and using Dependabot on your repository](/labs/4-HOL%20-%20AddingSecurity/2-Advanced_Security.md)
+- Hands-on lab 4.1: [Making your Deployment Workflows more secure](/labs/4-HOL%20-%20AddingSecurity/1-Using-Secrets.md)
+- Hands-on lab 4.2: [Setting up Code Scanning and Secret Scanning for your repository](/labs/4-HOL%20-%20AddingSecurity/2-Advanced_Security.md)
 - Hands-on lab 4.3: [Enabling and using Dependabot on your repository](/labs/4-HOL%20-%20AddingSecurity/3-DependaBot.md)
 
 
