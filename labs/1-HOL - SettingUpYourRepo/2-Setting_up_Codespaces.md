@@ -13,9 +13,9 @@ This hands on lab consists of the following steps:
 - [🔨 Hands-on: Setting up Codespaces to develop a web-app](#-hands-on-setting-up-codespaces-to-develop-a-web-app)
   - [Objectives of this hands-on lab](#objectives-of-this-hands-on-lab)
   - [Setting up your CodeSpaces development environment](#setting-up-your-codespaces-development-environment)
-  - [Adjusting CodeSpaces for your team and your type of work](#adjusting-codespaces-for-your-team-and-your-type-of-work)
   - [Checking if we can debug our web application](#checking-if-we-can-debug-our-web-application)
   - [Making a code change](#making-a-code-change)
+  - [Ading extensions](#ading-extensions)
   - [Committing the changes to the devcontainer](#committing-the-changes-to-the-devcontainer)
   - [Rebuilding the devcontainer](#rebuilding-the-devcontainer)
 
@@ -57,12 +57,12 @@ In your IDE find the file `translation.json` which can be found in the folder `T
 In this file you will find the value for the free shipping promotion. We are going to change this from `$300` to `$100` as part of a holiday promotion.
 After you have made a change to the file, go back to the tab with the website and see it changed there also immediately.
 
-## Ading extentions
+## Ading extensions
 You can add new extentions to the IDE.
 e.g. Search for `GitHub Markdown Preview`.
 Select install in codespaces and you install it to this instance of the devcontainer.
 You can also select the Manage option and then select add to devcontainer.json
-In this case you also make the extention available to any new developer in your team that starts a new Codespace.
+In this case you also make the extension available to any new developer in your team that starts a new Codespace.
 
 ## Committing the changes to the devcontainer
 We now know the plugin works great and we want to share this with our team. For this we need to commit some changes that were made during the exercise. First we want to commit the change to the website. For this you go to the Git tool window that can be found by the Git symbol in the left of your screen with a notification on there stating the number `3`.
