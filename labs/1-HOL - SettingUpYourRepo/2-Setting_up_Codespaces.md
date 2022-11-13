@@ -26,6 +26,9 @@ This hands on lab consists of the following steps:
 
 2. The first time you create a CodeSpace environment, you will see the following screen.
 
+> note: use the `...` menu item and select the option `+ New with options...`
+Select an 8 Core machine, so you have enough power to run the labs. If you select a lower number of cores, you might experience longer waits with the compilation of the c# application.
+
 ![creating codespace container](../../images/settingup-codespaces.png)
 Please wait for this to complete. The reason it takes some more time the first time has to do with the fact the container needs to be build for the first time. Next time you start a CodeSpace you will get access in a few seconds.
 
@@ -33,26 +36,6 @@ Please wait for this to complete. The reason it takes some more time the first t
 ![code space ide](../../images/codespace-ide.png)
 
 Once you are in your CodeSpace environment, you can follow the next steps to add an extension to your Code Space environment.
-
-## Adjusting CodeSpaces for your team and your type of work
-
-You will now make changes to the CodeSpaces environment so you are able to do software development as a web developer using .NET and C#.
-
-We will make use of the `auto detect` features of Visual Studio Code by browsing to one of the C# files that makes up the web solution in your repository.
-
-1. In the file explorer,  browse to the file `startup.cs` which van be found in the folder `TailwindTraders.Website\Source\Tailwind.Traders.Web`. The moment you open the file `startup.cs` you will see a pop-up appear in the bottom right corner of your ide.
-
-![install C# plugin](../../images/codespaces-new-installcsharp.PNG)
-
-2. Click on the `Install` button so the plugin gets installed in this instance of codespaces.
-
-3. While the plugin gets installed, we would like the installation not only to be in this instance but also for all your team mates. For this you click the gear icon in the extensions window and select the option `Add to devcontainer.json`
-
-![Code Spaces - Add to devcontainer.json](../../images/codespaces-new-add-to-devcontainer-and-add-missing-assets.PNG)
-
-4. In the meanwhile you also should see some messages popping up from the plugin that it is missing assets. Click on the yes button to add them to the project.
-
->Note: You'll get a pop-up stating "*We've noticed a change to the devcontainer configuration. Rebuild the container to apply them now*". We will wait with this, so please dismiss this dialog. 
 
 ## Checking if we can debug our web application
 1. The new plugin added the option to debug .NET applications. In the left of your screen you will see the button with the `Play` icon on there and a little symbol of a bug. Click this button and it will open the debug tools. In the top of the window you can now select which application you would like to debug. Select the application `.NET Core Launch (web)` 
@@ -74,13 +57,20 @@ In your IDE find the file `translation.json` which can be found in the folder `T
 In this file you will find the value for the free shipping promotion. We are going to change this from `$300` to `$100` as part of a holiday promotion.
 After you have made a change to the file, go back to the tab with the website and see it changed there also immediately.
 
+## Ading extentions
+You can add new extentions to the IDE.
+e.g. Search for `GitHub Markdown Preview`.
+Select install in codespaces and you install it to this instance of the devcontainer.
+You can also select the Manage option and then select add to devcontainer.json
+In this case you also make the extention available to any new developer in your team that starts a new Codespace.
+
 ## Committing the changes to the devcontainer
 We now know the plugin works great and we want to share this with our team. For this we need to commit some changes that were made during the exercise. First we want to commit the change to the website. For this you go to the Git tool window that can be found by the Git symbol in the left of your screen with a notification on there stating the number `3`.
 This means we have 3 changes that we can commit.
 
 1. You now first stage the change to the `translation.json` file. And you commit this change to the local repo.
 
-2. Next you stage the `devcontainer.json` and the `launch.json` file as a separate commit.
+2. Next you stage the `devcontainer.json` file as a separate commit.
 
 3. Now that your changes have been saved, you can rebuild the container and validate that it works as expected with a new fresh CodeSpaces instance.
 
