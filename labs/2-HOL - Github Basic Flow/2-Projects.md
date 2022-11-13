@@ -22,11 +22,6 @@ In his hands-on lab you will practice working with GitHub projects. The exercise
 9. Add your existing issues with the correct levels and some other sample data
 10. Group the backlog by level and safe the view.
 
-<details><summary>Solution</summary>
-
-  See [this example](https://github.com/users/<yourhandle>/projects/9)
-  
-</details>
 
 ## Working with boards
 
@@ -36,13 +31,6 @@ In his hands-on lab you will practice working with GitHub projects. The exercise
 2. Create a Kanban Board filtered by `level:story` and change the column field to sprint. Safe the view as `Sprints`
 3. Create a Kanban Board filtered by `-level:story` and change the colun view to `Quarter`. Safe the view as `Planning`.
 
-<details><summary>Solution</summary>
-
-  - [Feature Board](https://github.com/users/<yourhandle>/projects/9/views/2)  
-  - [Sprints](https://github.com/users/<yourhandle>/projects/9/views/2)  
-  - [Planning](https://github.com/users/<yourhandle>/projects/9/views/5)  
-  
-</details>
 
 ## Workflows
 [:hammer_and_wrench: DIY Link](https://docs.github.com/en/issues/planning-and-tracking-with-projects/automating-your-project/using-the-built-in-automations)
